@@ -1,0 +1,19 @@
+button {
+    background: #606c88;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    width: 25%;
+    height: 70px;
+    text-decoration: none;
+    border: 1px solid gray;
+    margin: 0;
+    cursor: pointer;
+    font-size: .8em;
+    transition: all .1s ease-in-out;
+}
+
+button:hover {
+    border: 1px solid lightgray;
+    transform: scale(1.03);
+}
